@@ -40,6 +40,11 @@ const Header = () => {
               </Link>
             </span>
           </p>
+          <h3>Skills:</h3>
+          <p>
+            React, Javascript, CSS, HTML, Express, MongoDB, postgreSQL, Ruby, Rails, Git, Github,
+            RESTful APIs
+          </p>
         </Fade>
       </Container>
     </section>
