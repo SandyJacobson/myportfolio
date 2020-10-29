@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hi, my name is ',
+  // title: 'Hi, my name is ',
   name: 'Sandy Jacobson',
-  subtitle: 'I am a Full Stack Developer',
+  subtitle: 'Full Stack Developer',
   cta: 'Learn More',
 };
 
@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'ProfilePic.jpeg',
   paragraphOne:
-    "When I lost my job in March of 2020 due to Covid-19, I knew something had to change. I had been complacent for far too long and hadn't really challenged myself in a very long time.",
+    "When I began my career as a technical recruiter, that was my first real taste of engineering. Not many other recuiters wanted to touch the 'smart' roles as they were referred to. But I was drawn to them. I wanted the challenge and though my knowledge started with buzz words, I quickly picked up concepts that would ultimately lead me to where I am today, a Software Engineer.",
   paragraphTwo:
-    "I'm not the type to stay stagnent and thanks to General Assembley, I was able to find my true calling as a Developer. I am finally passionate about what I'm doing, I am challenging myself everyday finally feel fulfilled.",
+    "Thanks to General Assembly, I was able to find my true calling as a Developer. I am finally passionate about what I'm doing, I am challenging myself everyday, and finally feel fulfilled.",
   paragraphThree:
-    'My goal is to keep growing as a developer, keep developing my skills and work on meaningful projects that help make people happier.',
+    'My goal is to keep growing as a developer, keep developing my skills, and work on meaningful projects that help make people happier.',
   resume: 'https://docs.google.com/document/d/1PpFk00qp6A6Hc9lmSAtpuud09yJwd5LwdaR8TNbXF5U/edit', // if no resume, the button will not show up
 };
 
@@ -55,19 +55,21 @@ export const projectsData = [
     id: nanoid(),
     img: 'Sportikus.jpg',
     title: 'Sportikus',
-    info: '',
+    info:
+      'A joint project between Software Engineering Immersive students and UXDI students, of which I was team lead. We built a Full Stack Sports Apparel Ecommerce store using React frontend with Express framework for the backend and MongoDB. ',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'sportikus.netlify.app/',
+    repo: 'https://github.com/SandyJacobson/sportikus', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: '',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'footballbros.jpg',
+    title: 'Football Bros',
+    info: 'My final project. A Full Stack Fantasy Football deticated to my league of 15 years.',
+    info2:
+      "Built with React frontend as well as CSS. This app used Ruby on Rails as it's backend framework.",
+    url: 'https://footballbros.netlify.app/',
+    repo: 'https://github.com/SandyJacobson/footballbros', // if no repo, the button will not show up
   },
 ];
 
