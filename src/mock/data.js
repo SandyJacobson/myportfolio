@@ -24,7 +24,8 @@ export const aboutData = {
     "Thanks to General Assembly, I was able to find my true calling as a Developer. I am finally passionate about what I'm doing, I am challenging myself everyday, and finally feel fulfilled.",
   paragraphThree:
     'My goal is to keep growing as a developer, keep developing my skills, and work on meaningful projects that help make people happier.',
-  resume: 'https://docs.google.com/document/d/1PpFk00qp6A6Hc9lmSAtpuud09yJwd5LwdaR8TNbXF5U/edit', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/e/2PACX-1vTtcse2kZAEYPbQkmESHQtVTuehYI184IelCqdhKZa--JKzB4nl8qqYnx5UvzVlQ9EWZbxT5mPqoDtV/pub', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
